@@ -1,56 +1,44 @@
+# Awesome-books
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Project Name
-
-> Description the project.
-
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: HTML, CSS, Javascript
+- Technologies used: GIT, Github, linters
 
-## Live Demo (if available)
+## Live Demo (link webpage when Pull Request aproved and merge it)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://artbsc1992.github.io/Awesome-books/#awesome)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+* nodejs 12.x
+* npm - to install packages locally
 
 ### Setup
+* git clone https://github.com/Artbsc1992/Awesome-books.git
 
 ### Install
+* npm install
 
-### Usage
+### Lint code
+* npm run webhint
+* npm run stylelint
 
-### Run tests
+Working a lot! 
 
-### Deployment
+Author 👤 
 
+GitHub: [@Arturo Hermida](https://github.com/Artbsc1992)
 
+LinkedIn: [Arturo Hermida]
 
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+Twitter: [Arturo Hermida]
 
 ## 🤝 Contributing
 
