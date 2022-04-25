@@ -1,0 +1,195 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.topBar #date {
+  position: fixed;
+  top: 80px;
+  right: 40px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 85vh;
+  margin-top: 128px;
+}
+
+.addBook {
+  display: none;
+}
+
+.addBook.active {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  width: 50%;
+}
+
+.addBook input {
+  margin-top: 24px;
+  border: 3px solid black;
+  height: 40px;
+  padding-left: 12px;
+  font-weight: bold;
+}
+
+.add {
+  margin-top: 24px;
+  width: fit-content;
+  padding: 2px 8px;
+  border: 3px solid black;
+  align-self: flex-end;
+  font-size: 24px;
+}
+
+.awesome {
+  display: none;
+}
+
+.awesome.active {
+  display: block;
+  text-align: center;
+  width: 98%;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 3px solid black;
+}
+
+footer h3 {
+  margin: 0;
+}
+
+.bookList {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 8px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.bookList:nth-child(odd) {
+  background-color: rgb(220, 220, 220);
+}
+
+.bookList h3 {
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+
+.remBtn {
+  border: 3px solid black;
+}
+
+.subtitle {
+  text-align: center;
+  justify-self: flex-start;
+  font-size: 48px;
+}
+
+.topBar {
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navBar {
+  position: fixed;
+  border: 3px solid black;
+  padding: 8px 0 8px 12px;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar h3 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.ulItems {
+  width: 35%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.links {
+  border-right: 3px solid black;
+  padding-right: 24px;
+}
+
+.links:nth-child(3) {
+  border: none;
+}
+
+.links a:hover {
+  color: blue;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 8px 12px;
+  border: 3px solid black;
+  width: 98%;
+}
+
+.contact {
+  display: none;
+}
+
+.contact.active {
+  display: block;
+}
+
+.contact h3 {
+  font-size: 20px;
+}
+
+.contact p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.contact .reach {
+  width: 380px;
+  margin: auto;
+}
+
+.contact-list {
+  display: block;
+  padding-left: 40px;
+}
+
+.contact-list li {
+  list-style: disc;
+  font-size: 20px;
+}
