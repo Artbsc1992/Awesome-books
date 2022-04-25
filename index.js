@@ -10,7 +10,7 @@ const divForm = document.querySelector('.addBook');
 const divContact = document.querySelector('.contact');
 const bookList = new Books();
 
-function display(bookObj) {
+const display = (bookObj) => {
   const divList = document.createElement('div');
   divList.classList.add('bookList');
   divList.setAttribute('id', bookObj.id);
@@ -27,7 +27,7 @@ function display(bookObj) {
   div.appendChild(divList);
 }
 
-function getInput() {
+const getInput = () => {
   const title = document.querySelector('.inputTitle').value;
   const author = document.querySelector('.inputAuthor').value;
   const book = new Book(title, author);
