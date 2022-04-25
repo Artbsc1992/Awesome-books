@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/Artbsc1992/Awesome-books#readme",
   "dependencies": {
-    "hint": "^6.1.11"
+    "hint": "^6.1.11",
+    "luxon": "^2.3.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
