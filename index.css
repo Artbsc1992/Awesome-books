@@ -21,6 +21,7 @@ body {
   align-items: center;
   height: 85vh;
   margin-top: 128px;
+  margin-bottom: 25px;
 }
 
 .addBook {
@@ -104,6 +105,7 @@ footer h3 {
   width: 100%;
   display: flex;
   justify-content: center;
+  
 }
 
 .navBar {
@@ -155,11 +157,11 @@ a {
 }
 
 footer {
-  position: fixed;
   bottom: 0;
   padding: 8px 12px;
   border: 3px solid black;
   width: 98%;
+  margin: auto;
 }
 
 .contact {
