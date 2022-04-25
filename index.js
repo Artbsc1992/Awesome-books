@@ -1,6 +1,6 @@
 import Book from './modules/book.js';
 import Books from './modules/books.js';
-import {DateTime} from './node_modules/luxon/src/luxon.js';
+import {DateTime} from './node_modules/luxon/src/luxon.min.js';
 
 const div = document.querySelector('.books');
 const awesome = document.querySelector('.awesome');
