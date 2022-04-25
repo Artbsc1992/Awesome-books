@@ -26,7 +26,7 @@ const display = (bookObj) => {
   divList.appendChild(name);
   divList.appendChild(remBtn);
   div.appendChild(divList);
-}
+};
 
 const getInput = () => {
   const title = document.querySelector('.inputTitle').value;
@@ -34,7 +34,7 @@ const getInput = () => {
   const book = new Book(title, author);
   document.querySelector('.addBook').reset();
   return book;
-}
+};
 
 const addBtn = document.getElementById('addBtn');
 addBtn.addEventListener('click', () => {
