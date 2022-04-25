@@ -71,4 +71,4 @@ contactBtn.addEventListener('click', () => {
   awesome.classList.remove('active');
 });
 
-displayTime();
+setInterval(() => displayTime(), 1000);
