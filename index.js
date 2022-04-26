@@ -1,6 +1,6 @@
 import Book from './modules/book.js';
 import Books from './modules/books.js';
-import displayTime from './modules/date.js';
+import { DateTime } from './modules/luxon.js';
 
 const div = document.querySelector('.books');
 const awesome = document.querySelector('.awesome');
@@ -71,4 +71,6 @@ contactBtn.addEventListener('click', () => {
   awesome.classList.remove('active');
 });
 
-setInterval(() => displayTime(), 1000);
+const datetime = document.getElementById('date');
+setInterval(() => { datetime.innerHTML = DateTime.local().toLocaleString(DateTime.DATETIME_FULL); },
+  1000);
