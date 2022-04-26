@@ -71,5 +71,7 @@ contactBtn.addEventListener('click', () => {
   awesome.classList.remove('active');
 });
 
+
 const datetime = document.getElementById('date');
 setInterval(() => {datetime.innerHTML = DateTime.local().toLocaleString(DateTime.DATETIME_FULL)}, 1000);
+
